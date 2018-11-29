@@ -1,5 +1,4 @@
 /********** Fixes **********/
-
 * {
   margin:0;
   padding:0;
@@ -7,6 +6,7 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  font-family: arial;
 }
 
 .clearfix:after {
@@ -20,6 +20,45 @@
 
 .clear {
   clear: both;
+}
+
+.shadow { 
+  float: left;
+}
+
+#blueshoes {
+  width:60%;
+  margin: 30px 10px 10px;
+}
+
+#archive {
+  width:33%;
+  margin: 30px 10px 10px;
+}
+
+#deals {
+  width: 100%;
+}
+
+#ladybug {
+  width:30%;
+  float: left;
+  margin: 30px 10px 10px;
+}
+
+#skateshoe {
+  width:30%;
+  margin: 30px 10px 10px;
+}
+
+#heels {
+  width:30%;
+  margin: 30px 10px 10px;
+  
+}
+
+#footer {
+  column-count: 3;
 }
 
 /* Positioning Classes */
